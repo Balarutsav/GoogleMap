@@ -65,22 +65,6 @@ public class MainActivity extends AppCompatActivity {
                         showSettingsAlert();
                     }
 
-         /*   try {
-                String stringLatitude = String.valueOf(gpsTracker.getLatitude());
-                Log.e(TAG, stringLatitude);
-                String stringLongitude = String.valueOf(gpsTracker.getLongitude());
-                Log.e(TAG, stringLongitude);
-                String country = gpsTracker.getCountryName(MainActivity.this);
-                Log.e(TAG, country);
-                String city = gpsTracker.getLocality(MainActivity.this);
-                Log.e(TAG, city);
-                String postalCode = gpsTracker.getPostalCode(MainActivity.this);
-                Log.e(TAG, postalCode);
-                String addressLine = gpsTracker.getAddressLine(MainActivity.this);
-                Log.e(TAG, addressLine);
-            } catch (Exception e) {
-                Log.e("error in set data",e.getMessage());
-            }*/
                 }
             }
         });
